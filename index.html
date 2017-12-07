@@ -5,8 +5,8 @@
 <head>
     <title>Example 01.03 - Materials and light</title>
     <script type="text/javascript" src="../libs/three.js"></script>
-    <script type="text/javascript" src="../libs/stats.js"></script>
-    <script type="text/javascript" src="../libs/dat.gui.js"></script>
+    <!-- <script type="text/javascript" src="../libs/stats.js"></script> -->
+    <!-- <script type="text/javascript" src="../libs/dat.gui.js"></script> -->
     <style>
         body {
             /* set margin to 0 and overflow to hidden, to go fullscreen */
@@ -36,7 +36,7 @@
         // create a render and set the size
         var renderer = new THREE.WebGLRenderer();
 
-        renderer.setClearColor(new THREE.Color(0xEEEEEE, 1.0));
+        renderer.setClearColor(new THREE.Color(0xfff, 1.0));
         renderer.setSize(window.innerWidth, window.innerHeight);
         renderer.shadowMapEnabled = true;
 
